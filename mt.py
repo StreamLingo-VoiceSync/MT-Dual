@@ -1,28 +1,4 @@
-""""
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║                    DUAL-LANE MT PIPELINE        
-║  4 Languages (EN, HI, ES, FR) | Dual Concurrent Paths | TTS-Ready | <2s    ║
-║  NLLB-1.3B | Grammar | Homophones | Synonyms | Idioms | Punctuation        ║
-║  Simultaneous A↔B and B↔A Translation for Real-Time Meetings               ║
-║                                                                              ║
-║  FEATURES:                                                            ║
-║  ✓ DUAL-LANE: Concurrent Path 1 (A→B) + Path 2 (B→A)                     ║
-║  ✓ THREADING: ThreadPoolExecutor for true parallelism                      ║
-║  ✓ NLLB-1.3B: Higher quality than 600M model                               ║
-║  ✓ GRAMMAR: Syntax analysis + correction                                   ║
-║  ✓ HOMOPHONES: Sound-alike word detection & resolution                     ║
-║  ✓ SYNONYMS: Context-aware synonym selection                               ║
-║  ✓ IDIOMS: 50+ idioms per language with cultural context                   ║
-║  ✓ PUNCTUATION: Language-specific rules + restoration                      ║
-║  ✓ SPEAKER CONTEXT: Per-speaker vocabulary & preferences                   ║
-║  ✓ ERROR ISOLATION: Path failures don't crash other path                   ║
-║  ✓ TTS READY: SSML + timestamps + prosody + speaker ID                     ║
-║  ✓ PRODUCTION: Logging, metrics, caching, fallbacks                        ║
-║  ✓ ZERO BUGS: All components tested and working                            ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-"""
+
 
 from __future__ import annotations
 
